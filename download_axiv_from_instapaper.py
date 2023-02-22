@@ -16,7 +16,7 @@ for m in marks:
         print("Adding {}".format(m.url))
         m.archive()
 
-cmd = 'getpaper -d /home/jiangwang/Dropbox/Papers/ -p '
+cmd = 'getpaper -d /home/user/Papers/ -p '
 for u in urls:
     cmd += (u + ' ')
 print(cmd)
